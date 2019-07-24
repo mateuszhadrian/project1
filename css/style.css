@@ -41,6 +41,12 @@ body {
     line-height: 0.9;
     font-weight: 900;
     margin: 0;
+    padding-left: 4px;
+    transition: border-left 1s ease-in-out;
+}
+
+.cover__brand:hover {
+    border-left: 1px solid white;
 }
 
 .navigation__list {
@@ -51,6 +57,19 @@ body {
     display: flex;
 }
 
+.navigation__link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .navigation__item {
     margin: 26px;
+    opacity: 0.8;
+    transition: transform 0.2s ease-in-out;
 }
+
+.navigation__item:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
