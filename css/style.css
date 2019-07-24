@@ -11,7 +11,7 @@ body {
 }
 
 .cover__photo {
-    background-image: url(imgs/coverDesk.jpg);
+    background-image: url(../imgs/coverDesk.jpg);
     background-size: cover;
     background-position: 0 auto;
     height: 100%;
