@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,900&display=swap');
+
+body {
+    height: 100%;
+}
+
+.cover {
+    height: 100vh;
+    overflow: hidden;
+    min-width: 930px;
+}
+
+.cover__photo {
+    background-image: url(imgs/coverDesk.jpg);
+    background-size: cover;
+    background-position: 0 auto;
+    height: 100%;
+}
+
+.cover__container {
+    display: flex;
+    justify-content: center;
+}
+.cover__header {
+    padding-top: 12px;
+    width: 95%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    height: 100px;
+}
+
+.cover__brand {
+    color: inherit;
+    text-decoration: none;
+    font-size: 32px;
+    letter-spacing: -2px;
+    line-height: 0.9;
+    font-weight: 900;
+    margin: 0;
+}
+
+.navigation__list {
+    margin-right: 40px;
+    font-size: 32px;
+    font-weight: 300;
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation__item {
+    margin: 26px;
+}
