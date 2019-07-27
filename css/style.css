@@ -191,6 +191,11 @@ body {
     box-shadow: 10px 10px 14px 1px rgba(00,00,00,0.2);
 }
 
+.fa-headphones, .fa-laptop, .fa-running {
+    padding-right: 12px;
+    
+}
+
 .hobby__name {
     font-size: 32px;
     padding-bottom: 16px;
