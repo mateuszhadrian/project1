@@ -173,8 +173,8 @@ body {
 .hobby__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 16px;
-    grid-row-gap: 20px;
+    grid-column-gap: 4%;
+    grid-row-gap: 42px;
     justify-content: center;
     height: 100%;
 }
