@@ -275,7 +275,27 @@ body {
 }
 
 .links__rectangle-bottom {
-    margin: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 176px;
+}
+
+.links__link {
+    font-size: 64px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.links__link:hover {
+    transform: scale(1.2);
+}
+
+.links__link--youtube {
+    color: red;
+}
+
+.links__link--facebook {
+    color: #4267b2;
 }
 
 .contact {
