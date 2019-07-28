@@ -19,9 +19,6 @@ body {
     height: 100%;
 }
 
-.cover__container {
-}
-
 .cover__header {
     position: fixed;
     padding-top: 12px;
@@ -59,6 +56,18 @@ body {
     display: flex;
 }
 
+@media all and (max-width: 991px){
+    .navigation__list {
+        flex-direction: column;
+        padding-left: 8px;
+    }
+    .cover__header {
+        position: absolute;
+        justify-content: flex-start;
+        top: 260px;
+    }
+}
+
 .navigation__link {
     color: inherit;
     text-decoration: inherit;
@@ -79,6 +88,7 @@ body {
 .about {
     min-width: 1100px;
     min-height: 100vh;
+    min-width: 930px;
     background-image: linear-gradient(to right top, #9fc7d9, #84afc0, #6998a8, #4e8190, #336b79, #336b79, #336b79, #336b79, #4e8190, #6998a8, #84afc0, #9fc7d9);
     overflow: hidden;
 }
@@ -94,6 +104,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .about__title {
     font-size: 64px;
     width: 95%;
@@ -142,7 +153,7 @@ body {
 }
 
 .hobby {
-    min-width: 1100px;
+    min-width: 930px;
     padding-bottom: 100px;
     overflow: hidden;
     background-image: linear-gradient(to right top, #bdaa4d, #c2b05a, #c7b566, #cbbb72, #d0c17e, #d0c17e, #d0c17e, #d0c17e, #cbbb72, #c7b566, #c2b05a, #bdaa4d);
@@ -215,7 +226,7 @@ body {
 }
 
 .links {
-    min-width: 1100px;
+    min-width: 930px;
     min-height: 100vh;
     padding-bottom: 48px;
     overflow: hidden;
@@ -299,7 +310,7 @@ body {
 
 .contact {
     padding-bottom: 64px;
-    min-width: 1100px;
+    min-width: 930px;
     min-height: 100vh;
     color: white;
     background-image: linear-gradient(to right top, #9fc7d9, #84afc0, #6998a8, #4e8190, #336b79, #336b79, #336b79, #336b79, #4e8190, #6998a8, #84afc0, #9fc7d9);
@@ -373,6 +384,7 @@ body {
 
 .footer {
     background: #D6C98E;
+    min-width: 930px;
     width: 100%;
 }
 
