@@ -487,6 +487,10 @@ body {
         min-width: 200px;
     }
 
+    .links__thumbnail {
+        width: 100px;
+    }
+
     .contact {
         min-width: 200px;
     }
@@ -496,6 +500,11 @@ body {
 
     .footer {
         min-width: 200px;
+    }
+
+    .links__rectangle-bottom {
+        width:100%;
+        justify-content: space-between;
     }
 
 
