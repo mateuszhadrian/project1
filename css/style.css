@@ -7,6 +7,7 @@ body {
 
 .cover {
     height: 100vh;
+    color: white;
     overflow: hidden;
     min-width: 930px;
 }
@@ -19,39 +20,37 @@ body {
 }
 
 .cover__container {
-    display: flex;
-    justify-content: center;
 }
+
 .cover__header {
-    position: relative;
+    position: fixed;
     padding-top: 12px;
     width: 95%;
-    color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     margin: 0;
     height: 100px;
 }
 
 .cover__brand {
+    position: absolute;
     color: inherit;
     text-decoration: none;
     font-size: 32px;
     letter-spacing: -2px;
     line-height: 0.9;
     font-weight: 900;
-    margin: 0;
-    padding-left: 4px;
-    transition: border-left 0.3s ease-in;
+    margin: 32px;
+    z-index: 1;
+    transition: border-left 0.5s ease-in-out;
 }
 
 .cover__brand:hover {
-    border-left: 1px solid rgba(255, 255, 255, 0.575);
+    border-left: 2px solid white;
 }
 
-.navigation{
-}
+
 .navigation__list {
     margin-right: 40px;
     font-size: 32px;
@@ -220,7 +219,7 @@ body {
     min-height: 100vh;
     padding-bottom: 48px;
     overflow: hidden;
-    background: #fefefe;
+    background: #f3e7e7;
 }
 
 .links__article {
@@ -374,6 +373,7 @@ body {
 
 .footer {
     background: #D6C98E;
+    width: 100%;
 }
 
 .footer__text {
