@@ -56,18 +56,6 @@ body {
     display: flex;
 }
 
-@media all and (max-width: 991px){
-    .navigation__list {
-        flex-direction: column;
-        padding-left: 8px;
-    }
-    .cover__header {
-        position: absolute;
-        justify-content: flex-start;
-        top: 260px;
-    }
-}
-
 .navigation__link {
     color: inherit;
     text-decoration: inherit;
@@ -415,4 +403,30 @@ body {
 
 .fa-shoe-prints {
     margin-left: 8px;
+}
+
+@media all and (max-width: 991px){
+
+
+    .navigation__list {
+        flex-direction: column;
+        padding-left: 8px;
+    }
+    .cover__header {
+        position: absolute;
+        justify-content: flex-start;
+        top: 260px;
+    }
+    .about {
+        min-width: 640px;
+    }
+
+    .about__grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .about__person-name {
+        margin-top: 42px;
+    }
 }
