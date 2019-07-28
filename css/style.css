@@ -456,3 +456,47 @@ body {
         min-width: 640px;
     }
 }
+
+@media all and (max-width: 768px){
+    .cover {
+        min-width: 200px;
+    }
+
+    .about {
+        min-width: 200px;
+    }
+
+    .about__photo {
+        background-position: center;
+    }
+
+    .hobby {
+        min-width: 200px;
+    }
+
+    .hobby__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hobby__rectangle--frontend {
+        order: -1;
+        grid-column: 1/2;
+    }
+
+    .links {
+        min-width: 200px;
+    }
+
+    .contact {
+        min-width: 200px;
+    }
+    .contact__form {
+        grid-template-columns: 150px 1fr;
+    }
+
+    .footer {
+        min-width: 200px;
+    }
+
+
+}
