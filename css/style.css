@@ -23,6 +23,7 @@ body {
     justify-content: center;
 }
 .cover__header {
+    position: relative;
     padding-top: 12px;
     width: 95%;
     color: white;
@@ -49,6 +50,8 @@ body {
     border-left: 1px solid rgba(255, 255, 255, 0.575);
 }
 
+.navigation{
+}
 .navigation__list {
     margin-right: 40px;
     font-size: 32px;
@@ -141,7 +144,6 @@ body {
 
 .hobby {
     min-width: 1100px;
-    background: white;
     padding-bottom: 48px;
     overflow: hidden;
     background-image: linear-gradient(to right top, #bdaa4d, #c2b05a, #c7b566, #cbbb72, #d0c17e, #d0c17e, #d0c17e, #d0c17e, #cbbb72, #c7b566, #c2b05a, #bdaa4d);
@@ -211,4 +213,64 @@ body {
     text-indent: 12px;
     font-size: 16px;
     line-height: 1.4;
+}
+
+.links {
+    min-width: 1100px;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.links__article {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.links__header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.links__title {
+    font-size: 64px;
+    width: 95%;
+    color: black;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.links__name {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.links__thumbnail {
+    width: 176px;
+}
+
+.links__rectangle {
+    padding: 12px;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 22px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 14px 1px rgba(00,00,00,0.2);
+}
+
+.links__rectangle-top {
+    display: flex;
+}
+    
+.links__description {
+    margin: 0 12px 12px 12px;
+    font-size: 20px;
+}
+
+.links__rectangle-bottom {
+    margin: 32px 0;
 }
