@@ -381,18 +381,23 @@ body {
     padding: 6px;
 }
 
-.contact__social-box {
+.footer__social-box {
     display: flex;
     justify-content: space-around;
     padding: 46px 0 72px 0;
     
 }
 
-.contact__social {
+.footer__social {
     text-decoration: none;
     color: rgb(34, 34, 34);
     display: block;
     font-size: 60px;
+    transition: transform 0.2s ease-in;
+}
+
+.footer__social:hover {
+    transform: scale(1.2);
 }
 
 
