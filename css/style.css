@@ -406,7 +406,9 @@ body {
 }
 
 @media all and (max-width: 991px){
-
+    .cover {
+        min-width: 640px;
+    }
 
     .navigation__list {
         flex-direction: column;
@@ -428,5 +430,29 @@ body {
 
     .about__person-name {
         margin-top: 42px;
+    }
+
+    .hobby {
+        min-width: 640px;
+    }
+    .hobby__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hobby__rectangle--frontend {
+        order: -1;
+        grid-column: 1/3;
+    }
+
+    .links {
+        min-width: 640px;
+    }
+
+    .contact {
+        min-width: 640px;
+    }
+
+    .footer {
+        min-width: 640px;
     }
 }
