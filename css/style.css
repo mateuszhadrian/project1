@@ -133,12 +133,13 @@ body {
 }
 
 .about__person-title {
+    text-transform: uppercase;
     margin: 0;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .about__person-description {
-    text-indent: 60px;
+    text-indent: 22px;
     font-size: 26px;
     margin-bottom: 64px;
 }
