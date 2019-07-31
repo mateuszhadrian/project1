@@ -20,9 +20,10 @@ body {
 }
 
 .cover__header {
+    background: rgba(0, 0, 0, 0.192);
     position: fixed;
-    padding-top: 12px;
-    width: 95%;
+    padding: 12px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -90,12 +91,13 @@ body {
 .about__header {
     height: 150px;
     display: flex;
-    align-items: center;
 }
 
 .about__title {
+    position: relative;
+    bottom: 21px;
+    z-index: 1;
     font-size: 64px;
-    width: 95%;
     color: white;
     font-weight: 300;
     display: flex;
@@ -151,12 +153,13 @@ body {
 .hobby__header {
     height: 150px;
     display: flex;
-    align-items: center;
 }
 
 .hobby__title {
+    z-index: 1;
+    position: relative;
+    bottom: 21px;
     font-size: 64px;
-    width: 95%;
     color: black;
     font-weight: 300;
     display: flex;
@@ -230,12 +233,13 @@ body {
 .links__header {
     height: 150px;
     display: flex;
-    align-items: center;
 }
 
 .links__title {
+    z-index: 1;
+    position: relative;
+    bottom: 21px;
     font-size: 64px;
-    width: 95%;
     color: black;
     font-weight: 300;
     display: flex;
@@ -314,12 +318,13 @@ body {
 .contact__header {
     height: 150px;
     display: flex;
-    align-items: center;
 }
 
 .contact__title {
+    z-index: 1;
+    position: relative;
+    bottom: 21px;
     font-size: 64px;
-    width: 95%;
     font-weight: 300;
     display: flex;
     align-items: center;
@@ -410,6 +415,11 @@ body {
         min-width: 640px;
     }
 
+    .cover__header {
+        background: none;
+        border-bottom: none;
+    }
+
     .navigation__list {
         flex-direction: column;
         padding-left: 8px;
@@ -460,6 +470,11 @@ body {
 @media all and (max-width: 768px){
     .cover {
         min-width: 200px;
+    }
+
+    .cover__header {
+        background: none;
+        border-bottom: none;
     }
 
     .about {
