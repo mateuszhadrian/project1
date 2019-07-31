@@ -7,7 +7,7 @@ body {
 
 .cover {
     height: 100vh;
-    color: white;
+    color: #fefefe;
     overflow: hidden;
     min-width: 930px;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .cover__brand:hover {
-    border-left: 2px solid white;
+    border-left: 2px solid #fefefe;
 }
 
 
@@ -63,7 +63,7 @@ body {
 }
 
 .navigation__item {
-    text-shadow: 2px 2px 2px rgba(172, 172, 172, 0.466);
+    text-shadow: 2px 2px 2px rgba(172, 172, 172, 0.582);
     margin: 26px;
     opacity: 0.8;
     transition: transform 0.2s ease-in-out;
@@ -111,7 +111,7 @@ body {
     padding: 0 auto;
     display: grid;
     justify-content: center;
-    grid-template-columns: 3fr 7fr;
+    grid-template-columns: 4fr 6fr;
     grid-column-gap: 8%;
 }
 
@@ -138,6 +138,7 @@ body {
 }
 
 .about__person-description {
+    text-indent: 60px;
     font-size: 26px;
     margin-bottom: 64px;
 }
@@ -304,7 +305,7 @@ body {
     padding-bottom: 64px;
     min-width: 930px;
     min-height: 100vh;
-    color: white;
+    color: #fefefe;
     background-image: linear-gradient(to right top, #9fc7d9, #84afc0, #6998a8, #4e8190, #336b79, #336b79, #336b79, #336b79, #4e8190, #6998a8, #84afc0, #9fc7d9);
     overflow: hidden;
 }
