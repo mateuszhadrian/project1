@@ -12,6 +12,16 @@ body {
     min-width: 930px;
 }
 
+.cover__go-top {
+    display: none;
+    font-size: 48px;
+    text-decoration: none;
+    color: silver;
+    position: fixed;
+    top: 32px;
+    right: 24px;
+}
+
 .cover__photo {
     background-image: url(../imgs/coverDesk.jpg);
     background-size: cover;
@@ -76,7 +86,6 @@ body {
 
 .about {
     min-width: 1100px;
-    min-height: 100vh;
     min-width: 930px;
     background-image: linear-gradient(to right top, #9fc7d9, #84afc0, #6998a8, #4e8190, #336b79, #336b79, #336b79, #336b79, #4e8190, #6998a8, #84afc0, #9fc7d9);
     overflow: hidden;
@@ -412,9 +421,16 @@ body {
     margin-left: 8px;
 }
 
+
+
+
 @media all and (max-width: 991px){
     .cover {
         min-width: 640px;
+    }
+
+    .cover__go-top {
+        display: inline;
     }
 
     .cover__header {
@@ -470,6 +486,11 @@ body {
 }
 
 @media all and (max-width: 768px){
+
+    .cover__go-top {
+        display: inline;
+    }
+
     .cover {
         min-width: 200px;
     }
@@ -525,4 +546,12 @@ body {
     }
 
 
+}
+
+@media all and (max-width: 1338px) and (min-width: 756px){
+    .about__photo {
+        background-size: contain; 
+        background-repeat: no-repeat;
+    }
+    
 }
