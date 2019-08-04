@@ -6,7 +6,7 @@ body {
 }
 
 .cover {
-    height: 100vh;
+    height:100vh;
     color: #fefefe;
     overflow: hidden;
     min-width: 930px;
@@ -49,7 +49,7 @@ body {
     letter-spacing: -2px;
     line-height: 0.9;
     font-weight: 900;
-    margin: 32px;
+    margin: 32px 32px 0 32px;
     z-index: 1;
     transition: border-left 0.5s ease-in-out;
 }
@@ -439,13 +439,21 @@ body {
     }
 
     .navigation__list {
+        justify-content: space-between;
         flex-direction: column;
         padding-left: 8px;
+        margin-top:0;
+    }
+
+    .navigation__item {
+        margin: 12px;
+        margin-left: 18px;
+    
     }
     .cover__header {
         position: absolute;
         justify-content: flex-start;
-        top: 260px;
+        top: 200px;
     }
     .about {
         min-width: 640px;
