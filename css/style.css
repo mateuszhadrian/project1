@@ -446,14 +446,14 @@ body {
     }
 
     .navigation__item {
-        margin: 12px;
+        margin: 10px;
         margin-left: 18px;
     
     }
     .cover__header {
         position: absolute;
         justify-content: flex-start;
-        top: 200px;
+        top: 190px;
     }
     .about {
         min-width: 640px;
