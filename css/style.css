@@ -16,7 +16,7 @@ body {
     display: none;
     font-size: 48px;
     text-decoration: none;
-    color: silver;
+    color: rgba(192, 192, 192, 0.61);
     position: fixed;
     top: 32px;
     right: 24px;
